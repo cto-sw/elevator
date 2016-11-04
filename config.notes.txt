@@ -1,0 +1,25 @@
+
+# passenger
+	# property
+		- arrival time
+		- arrival floor
+		- destination floor
+		- [weight]
+	# status
+		- waiting, in-elevator, arrived
+		- elevator taken
+
+# elevator
+	# property
+		- operation range (bottom..top)
+		- capacity [# of people ? total weight]
+	# status
+		- up, down, at-floor
+		- next floor
+
+# floor (?)
+	# property
+		- ? list of elevator (that stop on this floor)
+	# status
+		- ? list of passenger (in the order of arrival)
+
