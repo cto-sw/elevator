@@ -14,12 +14,15 @@
 		- operation range (bottom..top)
 		- capacity [# of people ? total weight]
 	# status
+		- set of passengers
 		- up, down, at-floor
 		- next floor
 
 # floor (?)
 	# property
-		- ? list of elevator (that stop on this floor)
+		- calling signal (up, down, none)
+		- ? set of elevator (that stop on this floor)
 	# status
-		- ? list of passenger (in the order of arrival)
+		- ? set of up-going passenger (in the order of arrival)
+		- ? set of down-going passenger (in the order of arrival)
 

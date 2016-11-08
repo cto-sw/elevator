@@ -1,0 +1,21 @@
+
+main-loop
+
+	- create passenger(s)
+		-- create 0 or multiple passengers
+		-- passenger creation (arrival) probability based on time-of-day
+		-- add passenger to floor (set)
+			-- set calling signal
+
+	- loop thru every elevator
+		if empty
+			-- check calling signal
+		else not empty
+			## how elevator moves?  how much time-seconds required between floors
+			-- if moving
+				--- any check?
+			-- else stopped
+				--- releases passengers arriving destination
+				--- picks up passengers for same direction
+				--- clear calling signal
+
